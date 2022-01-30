@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>WASMClean.Application.UnitTests</RootNamespace>
-        <AssemblyName>WASMClean.Application.UnitTests</AssemblyName>
+        <RootNamespace>Application.UnitTests</RootNamespace>
+        <AssemblyName>Application.UnitTests</AssemblyName>
 
         <IsPackable>false</IsPackable>
         <ImplicitUsings>enable</ImplicitUsings>

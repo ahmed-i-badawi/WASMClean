@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace WASMClean.Application.Common.Models;
+namespace Application.Common.Models;
 
 public class PaginatedList<T>
 {

@@ -1,4 +1,4 @@
-﻿namespace WASMClean.Domain.Common;
+﻿namespace Domain.Common;
 
 public interface IHasDomainEvent
 {

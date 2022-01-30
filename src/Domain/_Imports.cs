@@ -1,6 +1,6 @@
-﻿global using WASMClean.Domain.Common;
-global using WASMClean.Domain.Entities;
-global using WASMClean.Domain.Enums;
-global using WASMClean.Domain.Events;
-global using WASMClean.Domain.Exceptions;
-global using WASMClean.Domain.ValueObjects;
+﻿global using Domain.Common;
+global using Domain.Entities;
+global using Domain.Enums;
+global using Domain.Events;
+global using Domain.Exceptions;
+global using Domain.ValueObjects;

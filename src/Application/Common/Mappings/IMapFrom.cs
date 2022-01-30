@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace WASMClean.Application.Common.Mappings;
+namespace Application.Common.Mappings;
 
 public interface IMapFrom<T>
 {

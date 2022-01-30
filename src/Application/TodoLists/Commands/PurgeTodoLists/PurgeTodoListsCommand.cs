@@ -1,8 +1,8 @@
-﻿using WASMClean.Application.Common.Interfaces;
-using WASMClean.Application.Common.Security;
+﻿using Application.Common.Interfaces;
+using Application.Common.Security;
 using MediatR;
 
-namespace WASMClean.Application.TodoLists.Commands.PurgeTodoLists;
+namespace Application.TodoLists.Commands.PurgeTodoLists;
 
 [Authorize(Roles = "Administrator")]
 [Authorize(Policy = "CanPurge")]

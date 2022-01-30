@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using WASMClean.Application.Common.Interfaces;
+using Application.Common.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace WASMClean.Application.TodoLists.Queries.ExportTodos;
+namespace Application.TodoLists.Queries.ExportTodos;
 
 public class ExportTodosQuery : IRequest<ExportTodosVm>
 {

@@ -22,7 +22,7 @@ namespace WASMClean.Infrastructure.Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("WASMClean.Domain.Entities.TodoItem", b =>
+            modelBuilder.Entity("Domain.Entities.TodoItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -69,7 +69,7 @@ namespace WASMClean.Infrastructure.Persistence.Migrations
                     b.ToTable("TodoItems");
                 });
 
-            modelBuilder.Entity("WASMClean.Domain.Entities.TodoList", b =>
+            modelBuilder.Entity("Domain.Entities.TodoList", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -442,9 +442,9 @@ namespace WASMClean.Infrastructure.Persistence.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("WASMClean.Domain.Entities.TodoItem", b =>
+            modelBuilder.Entity("Domain.Entities.TodoItem", b =>
                 {
-                    b.HasOne("WASMClean.Domain.Entities.TodoList", "List")
+                    b.HasOne("Domain.Entities.TodoList", "List")
                         .WithMany("Items")
                         .HasForeignKey("ListId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -453,9 +453,9 @@ namespace WASMClean.Infrastructure.Persistence.Migrations
                     b.Navigation("List");
                 });
 
-            modelBuilder.Entity("WASMClean.Domain.Entities.TodoList", b =>
+            modelBuilder.Entity("Domain.Entities.TodoList", b =>
                 {
-                    b.OwnsOne("WASMClean.Domain.ValueObjects.Colour", "Colour", b1 =>
+                    b.OwnsOne("Domain.ValueObjects.Colour", "Colour", b1 =>
                         {
                             b1.Property<int>("TodoListId")
                                 .HasColumnType("int");
@@ -527,7 +527,7 @@ namespace WASMClean.Infrastructure.Persistence.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("WASMClean.Domain.Entities.TodoList", b =>
+            modelBuilder.Entity("Domain.Entities.TodoList", b =>
                 {
                     b.Navigation("Items");
                 });

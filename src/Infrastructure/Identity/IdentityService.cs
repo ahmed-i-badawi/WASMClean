@@ -1,5 +1,5 @@
-﻿using WASMClean.Application.Common.Interfaces;
-using WASMClean.Application.Common.Models;
+﻿using Application.Common.Interfaces;
+using Application.Common.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

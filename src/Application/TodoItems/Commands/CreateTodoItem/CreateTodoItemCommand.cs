@@ -1,9 +1,9 @@
-﻿using WASMClean.Application.Common.Interfaces;
-using WASMClean.Domain.Entities;
-using WASMClean.Domain.Events;
+﻿using Application.Common.Interfaces;
+using Domain.Entities;
+using Domain.Events;
 using MediatR;
 
-namespace WASMClean.Application.TodoItems.Commands.CreateTodoItem;
+namespace Application.TodoItems.Commands.CreateTodoItem;
 
 public class CreateTodoItemCommand : IRequest<int>
 {

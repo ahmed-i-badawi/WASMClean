@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>WASMClean.Domain</RootNamespace>
-        <AssemblyName>WASMClean.Domain</AssemblyName>
+        <RootNamespace>Domain</RootNamespace>
+        <AssemblyName>Domain</AssemblyName>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>

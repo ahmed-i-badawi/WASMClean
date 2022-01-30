@@ -1,10 +1,10 @@
-﻿using WASMClean.Application.Common.Exceptions;
-using WASMClean.Application.Common.Interfaces;
-using WASMClean.Domain.Entities;
-using WASMClean.Domain.Events;
+﻿using Application.Common.Exceptions;
+using Application.Common.Interfaces;
+using Domain.Entities;
+using Domain.Events;
 using MediatR;
 
-namespace WASMClean.Application.TodoItems.Commands.DeleteTodoItem;
+namespace Application.TodoItems.Commands.DeleteTodoItem;
 
 public class DeleteTodoItemCommand : IRequest
 {

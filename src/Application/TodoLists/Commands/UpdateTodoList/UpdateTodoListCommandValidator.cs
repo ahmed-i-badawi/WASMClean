@@ -1,8 +1,8 @@
-﻿using WASMClean.Application.Common.Interfaces;
+﻿using Application.Common.Interfaces;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
-namespace WASMClean.Application.TodoLists.Commands.UpdateTodoList;
+namespace Application.TodoLists.Commands.UpdateTodoList;
 
 public class UpdateTodoListCommandValidator : AbstractValidator<UpdateTodoListCommand>
 {

@@ -1,4 +1,4 @@
-﻿namespace WASMClean.Domain.Events;
+﻿namespace Domain.Events;
 
 public class TodoItemCreatedEvent : DomainEvent
 {

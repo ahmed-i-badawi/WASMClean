@@ -1,4 +1,4 @@
-﻿namespace WASMClean.Application.Common.Models;
+﻿namespace Application.Common.Models;
 
 public class Result
 {

@@ -1,4 +1,4 @@
-﻿using WASMClean.Application.Common.Interfaces;
+﻿using Application.Common.Interfaces;
 using WASMClean.Infrastructure.Identity;
 using WASMClean.Infrastructure.Persistence;
 using WASMClean.WebUI;
@@ -12,7 +12,7 @@ using Moq;
 using NUnit.Framework;
 using Respawn;
 
-namespace WASMClean.Application.IntegrationTests;
+namespace Application.IntegrationTests;
 
 [SetUpFixture]
 public class Testing

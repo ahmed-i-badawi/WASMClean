@@ -1,11 +1,11 @@
 ﻿using System.Runtime.Serialization;
 using AutoMapper;
-using WASMClean.Application.Common.Mappings;
-using WASMClean.Application.TodoLists.Queries.GetTodos;
-using WASMClean.Domain.Entities;
+using Application.Common.Mappings;
+using Application.TodoLists.Queries.GetTodos;
+using Domain.Entities;
 using NUnit.Framework;
 
-namespace WASMClean.Application.UnitTests.Common.Mappings;
+namespace Application.UnitTests.Common.Mappings;
 
 public class MappingTests
 {

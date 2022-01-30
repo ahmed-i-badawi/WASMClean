@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-using WASMClean.Application.Common.Interfaces;
+using Application.Common.Interfaces;
 
 namespace WASMClean.WebUI.Services;
 

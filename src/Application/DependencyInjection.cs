@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
-using WASMClean.Application.Common.Behaviours;
+using Application.Common.Behaviours;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace WASMClean.Application;
+namespace Application;
 
 public static class DependencyInjection
 {

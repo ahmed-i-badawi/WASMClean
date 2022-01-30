@@ -1,6 +1,6 @@
-﻿using WASMClean.Application.Common.Interfaces;
-using WASMClean.Application.Common.Models;
-using WASMClean.Domain.Common;
+﻿using Application.Common.Interfaces;
+using Application.Common.Models;
+using Domain.Common;
 using MediatR;
 using Microsoft.Extensions.Logging;
 

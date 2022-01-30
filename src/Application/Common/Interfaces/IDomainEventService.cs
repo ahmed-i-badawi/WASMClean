@@ -1,6 +1,6 @@
-﻿using WASMClean.Domain.Common;
+﻿using Domain.Common;
 
-namespace WASMClean.Application.Common.Interfaces;
+namespace Application.Common.Interfaces;
 
 public interface IDomainEventService
 {

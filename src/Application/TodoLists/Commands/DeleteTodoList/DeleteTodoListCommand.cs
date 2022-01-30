@@ -1,10 +1,10 @@
-﻿using WASMClean.Application.Common.Exceptions;
-using WASMClean.Application.Common.Interfaces;
-using WASMClean.Domain.Entities;
+﻿using Application.Common.Exceptions;
+using Application.Common.Interfaces;
+using Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace WASMClean.Application.TodoLists.Commands.DeleteTodoList;
+namespace Application.TodoLists.Commands.DeleteTodoList;
 
 public class DeleteTodoListCommand : IRequest
 {

@@ -1,4 +1,4 @@
-﻿using WASMClean.Application.Common.Interfaces;
+﻿using Application.Common.Interfaces;
 
 namespace WASMClean.Infrastructure.Services;
 

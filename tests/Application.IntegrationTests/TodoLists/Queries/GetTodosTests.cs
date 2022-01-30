@@ -1,10 +1,10 @@
-﻿using WASMClean.Application.TodoLists.Queries.GetTodos;
-using WASMClean.Domain.Entities;
-using WASMClean.Domain.ValueObjects;
+﻿using Application.TodoLists.Queries.GetTodos;
+using Domain.Entities;
+using Domain.ValueObjects;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace WASMClean.Application.IntegrationTests.TodoLists.Queries;
+namespace Application.IntegrationTests.TodoLists.Queries;
 
 using static Testing;
 

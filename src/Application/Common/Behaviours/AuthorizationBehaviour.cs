@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
-using WASMClean.Application.Common.Exceptions;
-using WASMClean.Application.Common.Interfaces;
-using WASMClean.Application.Common.Security;
+using Application.Common.Exceptions;
+using Application.Common.Interfaces;
+using Application.Common.Security;
 using MediatR;
 
-namespace WASMClean.Application.Common.Behaviours;
+namespace Application.Common.Behaviours;
 
 public class AuthorizationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : notnull
 {

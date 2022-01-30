@@ -1,5 +1,5 @@
-using WASMClean.Application;
-using WASMClean.Application.Common.Interfaces;
+using Application;
+using Application.Common.Interfaces;
 using WASMClean.Infrastructure;
 using WASMClean.Infrastructure.Persistence;
 using WASMClean.WebUI.Filters;

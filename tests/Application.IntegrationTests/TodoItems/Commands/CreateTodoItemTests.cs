@@ -1,11 +1,11 @@
-﻿using WASMClean.Application.Common.Exceptions;
-using WASMClean.Application.TodoItems.Commands.CreateTodoItem;
-using WASMClean.Application.TodoLists.Commands.CreateTodoList;
-using WASMClean.Domain.Entities;
+﻿using Application.Common.Exceptions;
+using Application.TodoItems.Commands.CreateTodoItem;
+using Application.TodoLists.Commands.CreateTodoList;
+using Domain.Entities;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace WASMClean.Application.IntegrationTests.TodoItems.Commands;
+namespace Application.IntegrationTests.TodoItems.Commands;
 
 using static Testing;
 

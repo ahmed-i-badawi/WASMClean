@@ -1,4 +1,4 @@
-﻿namespace WASMClean.Domain.Entities;
+﻿namespace Domain.Entities;
 
 public class TodoItem : AuditableEntity, IHasDomainEvent
 {

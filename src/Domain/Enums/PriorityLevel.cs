@@ -1,4 +1,4 @@
-﻿namespace WASMClean.Domain.Enums;
+﻿namespace Domain.Enums;
 
 public enum PriorityLevel
 {

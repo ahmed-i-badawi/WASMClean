@@ -1,8 +1,8 @@
-﻿using WASMClean.Application.TodoLists.Commands.CreateTodoList;
-using WASMClean.Application.TodoLists.Commands.DeleteTodoList;
-using WASMClean.Application.TodoLists.Commands.UpdateTodoList;
-using WASMClean.Application.TodoLists.Queries.ExportTodos;
-using WASMClean.Application.TodoLists.Queries.GetTodos;
+﻿using Application.TodoLists.Commands.CreateTodoList;
+using Application.TodoLists.Commands.DeleteTodoList;
+using Application.TodoLists.Commands.UpdateTodoList;
+using Application.TodoLists.Queries.ExportTodos;
+using Application.TodoLists.Queries.GetTodos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

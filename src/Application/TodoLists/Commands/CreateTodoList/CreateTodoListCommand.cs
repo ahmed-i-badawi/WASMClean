@@ -1,8 +1,8 @@
-﻿using WASMClean.Application.Common.Interfaces;
-using WASMClean.Domain.Entities;
+﻿using Application.Common.Interfaces;
+using Domain.Entities;
 using MediatR;
 
-namespace WASMClean.Application.TodoLists.Commands.CreateTodoList;
+namespace Application.TodoLists.Commands.CreateTodoList;
 
 public class CreateTodoListCommand : IRequest<int>
 {

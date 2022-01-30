@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace WASMClean.Application.IntegrationTests;
+namespace Application.IntegrationTests;
 
 using static Testing;
 

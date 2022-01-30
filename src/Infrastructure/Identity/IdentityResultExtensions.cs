@@ -1,4 +1,4 @@
-﻿using WASMClean.Application.Common.Models;
+﻿using Application.Common.Models;
 using Microsoft.AspNetCore.Identity;
 
 namespace WASMClean.Infrastructure.Identity;

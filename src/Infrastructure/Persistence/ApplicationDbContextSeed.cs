@@ -1,5 +1,5 @@
-﻿using WASMClean.Domain.Entities;
-using WASMClean.Domain.ValueObjects;
+﻿using Domain.Entities;
+using Domain.ValueObjects;
 using WASMClean.Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 

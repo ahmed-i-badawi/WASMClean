@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using WASMClean.Application.Common.Interfaces;
-using WASMClean.Domain.Enums;
+using Application.Common.Interfaces;
+using Domain.Enums;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace WASMClean.Application.TodoLists.Queries.GetTodos;
+namespace Application.TodoLists.Queries.GetTodos;
 
 public class GetTodosQuery : IRequest<TodosVm>
 {

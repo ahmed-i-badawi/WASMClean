@@ -1,6 +1,6 @@
-﻿using WASMClean.Application.Common.Models;
+﻿using Application.Common.Models;
 
-namespace WASMClean.Application.Common.Interfaces;
+namespace Application.Common.Interfaces;
 
 public interface IIdentityService
 {

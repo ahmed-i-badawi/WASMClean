@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using WASMClean.Application.Common.Models;
+using Application.Common.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace WASMClean.Application.Common.Mappings;
+namespace Application.Common.Mappings;
 
 public static class MappingExtensions
 {

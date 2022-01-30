@@ -1,7 +1,7 @@
-﻿using WASMClean.Application.Common.Mappings;
-using WASMClean.Domain.Entities;
+﻿using Application.Common.Mappings;
+using Domain.Entities;
 
-namespace WASMClean.Application.TodoItems.Queries.GetTodoItemsWithPagination;
+namespace Application.TodoItems.Queries.GetTodoItemsWithPagination;
 
 public class TodoItemBriefDto : IMapFrom<TodoItem>
 {

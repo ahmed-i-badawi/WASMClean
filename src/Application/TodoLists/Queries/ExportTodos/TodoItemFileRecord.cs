@@ -1,7 +1,7 @@
-﻿using WASMClean.Application.Common.Mappings;
-using WASMClean.Domain.Entities;
+﻿using Application.Common.Mappings;
+using Domain.Entities;
 
-namespace WASMClean.Application.TodoLists.Queries.ExportTodos;
+namespace Application.TodoLists.Queries.ExportTodos;
 
 public class TodoItemRecord : IMapFrom<TodoItem>
 {

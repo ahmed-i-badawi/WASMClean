@@ -1,9 +1,9 @@
-﻿using WASMClean.Application.Common.Exceptions;
-using WASMClean.Application.Common.Interfaces;
-using WASMClean.Domain.Entities;
+﻿using Application.Common.Exceptions;
+using Application.Common.Interfaces;
+using Domain.Entities;
 using MediatR;
 
-namespace WASMClean.Application.TodoItems.Commands.UpdateTodoItem;
+namespace Application.TodoItems.Commands.UpdateTodoItem;
 
 public class UpdateTodoItemCommand : IRequest
 {

@@ -1,9 +1,9 @@
-﻿using WASMClean.Application.Common.Models;
-using WASMClean.Domain.Events;
+﻿using Application.Common.Models;
+using Domain.Events;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace WASMClean.Application.TodoItems.EventHandlers;
+namespace Application.TodoItems.EventHandlers;
 
 public class TodoItemCreatedEventHandler : INotificationHandler<DomainEventNotification<TodoItemCreatedEvent>>
 {

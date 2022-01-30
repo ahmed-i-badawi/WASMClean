@@ -1,4 +1,4 @@
-﻿using WASMClean.Application.Common.Interfaces;
+﻿using Application.Common.Interfaces;
 using WASMClean.Infrastructure.Files;
 using WASMClean.Infrastructure.Identity;
 using WASMClean.Infrastructure.Persistence;

@@ -1,7 +1,7 @@
-﻿using WASMClean.Domain.Entities;
+﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace WASMClean.Application.Common.Interfaces;
+namespace Application.Common.Interfaces;
 
 public interface IApplicationDbContext
 {

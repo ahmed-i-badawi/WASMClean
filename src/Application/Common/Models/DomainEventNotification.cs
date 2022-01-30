@@ -1,7 +1,7 @@
-﻿using WASMClean.Domain.Common;
+﻿using Domain.Common;
 using MediatR;
 
-namespace WASMClean.Application.Common.Models;
+namespace Application.Common.Models;
 
 public class DomainEventNotification<TDomainEvent> : INotification where TDomainEvent : DomainEvent
 {

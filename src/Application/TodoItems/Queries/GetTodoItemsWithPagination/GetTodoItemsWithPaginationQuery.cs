@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using WASMClean.Application.Common.Interfaces;
-using WASMClean.Application.Common.Mappings;
-using WASMClean.Application.Common.Models;
+using Application.Common.Interfaces;
+using Application.Common.Mappings;
+using Application.Common.Models;
 using MediatR;
 
-namespace WASMClean.Application.TodoItems.Queries.GetTodoItemsWithPagination;
+namespace Application.TodoItems.Queries.GetTodoItemsWithPagination;
 
 public class GetTodoItemsWithPaginationQuery : IRequest<PaginatedList<TodoItemBriefDto>>
 {

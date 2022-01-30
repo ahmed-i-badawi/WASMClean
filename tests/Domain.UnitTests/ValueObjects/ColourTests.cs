@@ -1,9 +1,9 @@
-﻿using WASMClean.Domain.Exceptions;
-using WASMClean.Domain.ValueObjects;
+﻿using Domain.Exceptions;
+using Domain.ValueObjects;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace WASMClean.Domain.UnitTests.ValueObjects;
+namespace Domain.UnitTests.ValueObjects;
 
 public class ColourTests
 {

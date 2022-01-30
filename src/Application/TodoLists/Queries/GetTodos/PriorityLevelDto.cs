@@ -1,4 +1,4 @@
-﻿namespace WASMClean.Application.TodoLists.Queries.GetTodos;
+﻿namespace Application.TodoLists.Queries.GetTodos;
 
 public class PriorityLevelDto
 {

@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 using MediatR;
-using ValidationException = WASMClean.Application.Common.Exceptions.ValidationException;
+using ValidationException = Application.Common.Exceptions.ValidationException;
 
-namespace WASMClean.Application.Common.Behaviours;
+namespace Application.Common.Behaviours;
 
 public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
      where TRequest : notnull

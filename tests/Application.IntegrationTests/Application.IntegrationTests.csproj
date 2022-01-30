@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>WASMClean.Application.IntegrationTests</RootNamespace>
-        <AssemblyName>WASMClean.Application.IntegrationTests</AssemblyName>
+        <RootNamespace>Application.IntegrationTests</RootNamespace>
+        <AssemblyName>Application.IntegrationTests</AssemblyName>
 
         <IsPackable>false</IsPackable>
         <ImplicitUsings>enable</ImplicitUsings>

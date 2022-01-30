@@ -1,11 +1,11 @@
-﻿using WASMClean.Application.Common.Behaviours;
-using WASMClean.Application.Common.Interfaces;
-using WASMClean.Application.TodoItems.Commands.CreateTodoItem;
+﻿using Application.Common.Behaviours;
+using Application.Common.Interfaces;
+using Application.TodoItems.Commands.CreateTodoItem;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
 
-namespace WASMClean.Application.UnitTests.Common.Behaviours;
+namespace Application.UnitTests.Common.Behaviours;
 
 public class RequestLoggerTests
 {

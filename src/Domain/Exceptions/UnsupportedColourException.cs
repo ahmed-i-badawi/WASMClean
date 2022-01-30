@@ -1,4 +1,4 @@
-﻿namespace WASMClean.Domain.Exceptions;
+﻿namespace Domain.Exceptions;
 
 public class UnsupportedColourException : Exception
 {

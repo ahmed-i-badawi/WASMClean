@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
-using WASMClean.Application.Common.Interfaces;
-using WASMClean.Application.TodoLists.Queries.ExportTodos;
+using Application.Common.Interfaces;
+using Application.TodoLists.Queries.ExportTodos;
 using WASMClean.Infrastructure.Files.Maps;
 using CsvHelper;
 

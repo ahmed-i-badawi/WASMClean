@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
-using WASMClean.Application.Common.Interfaces;
-using WASMClean.Domain.Common;
-using WASMClean.Domain.Entities;
+using Application.Common.Interfaces;
+using Domain.Common;
+using Domain.Entities;
 using WASMClean.Infrastructure.Identity;
 using Duende.IdentityServer.EntityFramework.Options;
 using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;

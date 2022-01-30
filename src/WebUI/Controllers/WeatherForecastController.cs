@@ -1,4 +1,4 @@
-﻿using WASMClean.Application.WeatherForecasts.Queries.GetWeatherForecasts;
+﻿using Application.WeatherForecasts.Queries.GetWeatherForecasts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WASMClean.WebUI.Controllers;
