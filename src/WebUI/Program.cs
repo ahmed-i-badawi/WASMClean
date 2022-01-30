@@ -3,7 +3,7 @@ using Infrastructure.Persistence;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace WASMClean.WebUI;
+namespace WebUI;
 
 public class Program
 {

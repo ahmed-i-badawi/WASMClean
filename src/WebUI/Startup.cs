@@ -2,14 +2,14 @@ using Application;
 using Application.Common.Interfaces;
 using Infrastructure;
 using Infrastructure.Persistence;
-using WASMClean.WebUI.Filters;
-using WASMClean.WebUI.Services;
+using WebUI.Filters;
+using WebUI.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using NSwag;
 using NSwag.Generation.Processors.Security;
 
-namespace WASMClean.WebUI;
+namespace WebUI;
 
 public class Startup
 {

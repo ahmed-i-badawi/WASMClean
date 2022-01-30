@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Mvc;
 
-namespace WASMClean.WebUI.Controllers;
+namespace WebUI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

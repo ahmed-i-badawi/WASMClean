@@ -6,7 +6,7 @@ using Application.TodoLists.Queries.GetTodos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WASMClean.WebUI.Controllers;
+namespace WebUI.Controllers;
 
 [Authorize]
 public class TodoListsController : ApiControllerBase

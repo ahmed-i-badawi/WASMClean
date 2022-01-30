@@ -2,7 +2,7 @@
 
 using Application.Common.Interfaces;
 
-namespace WASMClean.WebUI.Services;
+namespace WebUI.Services;
 
 public class CurrentUserService : ICurrentUserService
 {

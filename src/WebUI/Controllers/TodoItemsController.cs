@@ -7,7 +7,7 @@ using Application.TodoItems.Queries.GetTodoItemsWithPagination;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WASMClean.WebUI.Controllers;
+namespace WebUI.Controllers;
 
 [Authorize]
 public class TodoItemsController : ApiControllerBase
