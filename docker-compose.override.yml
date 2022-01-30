@@ -7,9 +7,9 @@ services:
       - "SpaBaseUrl=http://clientapp:4200"
 
   clientapp:
-    image: ${DOCKER_REGISTRY-}clientapp
+    image: ${DOCKER_REGISTRY-}webui
     build:
-      context: src/WebUI/ClientApp
+      context: .
       dockerfile: Dockerfile
     depends_on:
       - webui

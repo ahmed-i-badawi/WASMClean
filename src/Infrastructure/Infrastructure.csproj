@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>WASMClean.Infrastructure</RootNamespace>
-        <AssemblyName>WASMClean.Infrastructure</AssemblyName>
+        <RootNamespace>Infrastructure</RootNamespace>
+        <AssemblyName>Infrastructure</AssemblyName>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
