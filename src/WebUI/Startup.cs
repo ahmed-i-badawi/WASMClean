@@ -1,7 +1,7 @@
 using Application;
 using Application.Common.Interfaces;
-using WASMClean.Infrastructure;
-using WASMClean.Infrastructure.Persistence;
+using Infrastructure;
+using Infrastructure.Persistence;
 using WASMClean.WebUI.Filters;
 using WASMClean.WebUI.Services;
 using FluentValidation.AspNetCore;

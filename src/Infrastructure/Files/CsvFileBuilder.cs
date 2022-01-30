@@ -1,10 +1,10 @@
 ﻿using System.Globalization;
 using Application.Common.Interfaces;
 using Application.TodoLists.Queries.ExportTodos;
-using WASMClean.Infrastructure.Files.Maps;
+using Infrastructure.Files.Maps;
 using CsvHelper;
 
-namespace WASMClean.Infrastructure.Files;
+namespace Infrastructure.Files;
 
 public class CsvFileBuilder : ICsvFileBuilder
 {

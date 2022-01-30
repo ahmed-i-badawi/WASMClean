@@ -1,6 +1,6 @@
 ﻿using Application.Common.Interfaces;
 
-namespace WASMClean.Infrastructure.Services;
+namespace Infrastructure.Services;
 
 public class DateTimeService : IDateTime
 {

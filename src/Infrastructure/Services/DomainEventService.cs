@@ -4,7 +4,7 @@ using Domain.Common;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace WASMClean.Infrastructure.Services;
+namespace Infrastructure.Services;
 
 public class DomainEventService : IDomainEventService
 {

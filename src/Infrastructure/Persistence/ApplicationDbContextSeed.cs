@@ -1,9 +1,9 @@
 ﻿using Domain.Entities;
 using Domain.ValueObjects;
-using WASMClean.Infrastructure.Identity;
+using Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 
-namespace WASMClean.Infrastructure.Persistence;
+namespace Infrastructure.Persistence;
 
 public static class ApplicationDbContextSeed
 {

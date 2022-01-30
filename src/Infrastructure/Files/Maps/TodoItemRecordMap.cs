@@ -2,7 +2,7 @@
 using Application.TodoLists.Queries.ExportTodos;
 using CsvHelper.Configuration;
 
-namespace WASMClean.Infrastructure.Files.Maps;
+namespace Infrastructure.Files.Maps;
 
 public class TodoItemRecordMap : ClassMap<TodoItemRecord>
 {

@@ -1,5 +1,5 @@
-using WASMClean.Infrastructure.Identity;
-using WASMClean.Infrastructure.Persistence;
+using Infrastructure.Identity;
+using Infrastructure.Persistence;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

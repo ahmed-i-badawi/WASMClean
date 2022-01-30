@@ -1,6 +1,6 @@
 ﻿using Application.Common.Interfaces;
-using WASMClean.Infrastructure.Identity;
-using WASMClean.Infrastructure.Persistence;
+using Infrastructure.Identity;
+using Infrastructure.Persistence;
 using WASMClean.WebUI;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;

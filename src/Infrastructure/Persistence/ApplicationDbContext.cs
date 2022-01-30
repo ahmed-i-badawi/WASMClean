@@ -2,13 +2,13 @@
 using Application.Common.Interfaces;
 using Domain.Common;
 using Domain.Entities;
-using WASMClean.Infrastructure.Identity;
+using Infrastructure.Identity;
 using Duende.IdentityServer.EntityFramework.Options;
 using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace WASMClean.Infrastructure.Persistence;
+namespace Infrastructure.Persistence;
 
 public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, IApplicationDbContext
 {

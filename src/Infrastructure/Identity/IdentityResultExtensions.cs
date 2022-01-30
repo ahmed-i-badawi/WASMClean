@@ -1,7 +1,7 @@
 ﻿using Application.Common.Models;
 using Microsoft.AspNetCore.Identity;
 
-namespace WASMClean.Infrastructure.Identity;
+namespace Infrastructure.Identity;
 
 public static class IdentityResultExtensions
 {

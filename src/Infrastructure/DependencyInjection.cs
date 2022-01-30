@@ -1,15 +1,15 @@
 ﻿using Application.Common.Interfaces;
-using WASMClean.Infrastructure.Files;
-using WASMClean.Infrastructure.Identity;
-using WASMClean.Infrastructure.Persistence;
-using WASMClean.Infrastructure.Services;
+using Infrastructure.Files;
+using Infrastructure.Identity;
+using Infrastructure.Persistence;
+using Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace WASMClean.Infrastructure;
+namespace Infrastructure;
 
 public static class DependencyInjection
 {
