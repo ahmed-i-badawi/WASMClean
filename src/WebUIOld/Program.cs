@@ -1,8 +1,8 @@
+using Infrastructure.Identity;
+using Infrastructure.Persistence;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
-using WebUI.Data;
-using WebUI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,7 +30,6 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
-    app.UseWebAssemblyDebugging();
 }
 else
 {
@@ -41,7 +40,6 @@ else
 
 app.UseHttpsRedirection();
 
-app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 
 app.UseRouting();
