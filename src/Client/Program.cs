@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Syncfusion.Blazor;
 using WASM.Client;
 
 Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDIxNDQxQDMxMzkyZTMxMmUzMEZuWDBPTlBSWFBIK3hWZlZNWXlJRE9RZWZRLytHRkltK0cwd29ObGZNTFk9");
@@ -16,5 +17,7 @@ builder.Services.AddHttpClient("WASM.ServerAPI", client => client.BaseAddress = 
 builder.Services.AddScoped(sp => sp.GetRequiredService<IHttpClientFactory>().CreateClient("WASM.ServerAPI"));
 
 builder.Services.AddApiAuthorization();
+builder.Services.AddSyncfusionBlazor();
+builder.Services.AddOptions();
 
 await builder.Build().RunAsync();
