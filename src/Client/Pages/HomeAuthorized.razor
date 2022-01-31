@@ -1,0 +1,15 @@
+﻿@attribute [Authorize]
+
+<PageTitle>Dashboard</PageTitle>
+
+<h1>Dashboard!</h1>
+
+Welcome @(UserName)! to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+
+@code {
+    [Parameter]
+    public string UserName { get; set; } = string.Empty;
+}

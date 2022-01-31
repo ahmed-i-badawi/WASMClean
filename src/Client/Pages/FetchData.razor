@@ -1,10 +1,8 @@
 ﻿@page "/fetchdata"
-@using Microsoft.AspNetCore.Authorization
-@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
 @using WASM.Shared
 @attribute [Authorize]
 @inject HttpClient Http
-
+<AuthorizeView>
 <PageTitle>Weather forecast</PageTitle>
 
 <h1>Weather forecast</h1>
@@ -39,7 +37,7 @@ else
         </tbody>
     </table>
 }
-
+</AuthorizeView>
 @code {
     private WeatherForecast[]? forecasts;
 
