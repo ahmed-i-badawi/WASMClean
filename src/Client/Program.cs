@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using WASM.Client;
 
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDIxNDQxQDMxMzkyZTMxMmUzMEZuWDBPTlBSWFBIK3hWZlZNWXlJRE9RZWZRLytHRkltK0cwd29ObGZNTFk9");
+
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
