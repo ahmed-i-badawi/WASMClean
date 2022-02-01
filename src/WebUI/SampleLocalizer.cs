@@ -1,5 +1,4 @@
 ﻿using Syncfusion.Blazor;
-using WASM.Shared.Localization;
 
 namespace WebUI;
 
@@ -14,7 +13,7 @@ public class SampleLocalizer : ISyncfusionStringLocalizer
     {
         get
         {
-            return ResourceSyncfusion.ResourceManager;
+            return WASM.Client.Resources.SfResources.ResourceManager;
         }
     }
 }

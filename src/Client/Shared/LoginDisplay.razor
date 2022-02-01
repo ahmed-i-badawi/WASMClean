@@ -4,13 +4,27 @@
 <AuthorizeView>
     <Authorized>
         <a href="authentication/profile">Hello, @context.User.Identity?.Name!</a>
-        <button class="nav-link btn btn-link" @onclick="BeginSignOut">Log out</button>
+        <button class="buttonstyle" @onclick="BeginSignOut"><img src="/images/Logout.png" alt="Logout"></button>
     </Authorized>
     <NotAuthorized>
         <a href="authentication/register">Register</a>
         <a href="authentication/login">Log in</a>
     </NotAuthorized>
 </AuthorizeView>
+
+<style>
+    .buttonstyle {
+        border: thin;
+        background-color: transparent;
+        padding-left: 15px;
+        
+        
+    }
+    .buttonstyle:focus{
+        outline:none
+    }
+
+</style>
 
 @code{
     private async Task BeginSignOut(MouseEventArgs args)

@@ -108,24 +108,8 @@ public class Startup
 
             configure.OperationProcessors.Add(new AspNetCoreOperationSecurityScopeProcessor("JWT"));
         });
-        services.AddSyncfusionBlazor();
-        services.AddLocalization(options => options.ResourcesPath = "Localization");
-        services.Configure<RequestLocalizationOptions>(options =>
-        {
-            // define the list of cultures your app will support
-            var supportedCultures = new List<CultureInfo>()
-            {
-                new CultureInfo("ar")
-            };
-            // set the default culture
-            options.DefaultRequestCulture = new RequestCulture("ar");
-            options.SupportedCultures = supportedCultures;
-            options.SupportedUICultures = supportedCultures;
-            options.RequestCultureProviders = new List<IRequestCultureProvider>() {
-             new QueryStringRequestCultureProvider() // Here, You can also use other localization provider
-            };
-        });
-        services.AddSingleton(typeof(ISyncfusionStringLocalizer), typeof(SampleLocalizer));
+        services.AddSyncfusionBlazor(options => { options.IgnoreScriptIsolation = true; });
+
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
